@@ -2,7 +2,7 @@
    "type": "list",
    "headline": "Lampset",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
-   "dictionary": "https://wals09.github.io/msx/dictionary.json",
+   "dictionary": "https://andycar.github.io/msx/dictionary.json",
    "preload": "next",
    "captionUnderlay": 1,
    "underlay": {
@@ -59,7 +59,7 @@
             }
          },
          "playerLabel": "khuyampa best",
-         "image": "https://github.com/wals09/msx/blob/main/lampset/blue.png?raw=true",
+         "image": "https://github.com/andycar/msx/blob/main/lampset/blue.png?raw=true",
          "action": "link: https://khuyampa.best",
          "properties": {
             "trigger:back": "player:stop",
@@ -78,7 +78,7 @@
             }
          },
          "playerLabel": "cf lampa mx",
-         "image": "https://github.com/wals09/msx/blob/main/lampset/yewllo.png?raw=true",
+         "image": "https://github.com/andycar/msx/blob/main/lampset/yewllo.png?raw=true",
          "action": "link: https://cf.lampa.mx",
          "properties": {
             "trigger:back": "player:stop",
@@ -97,7 +97,7 @@
             }
          },
          "playerLabel": "Lampa stream",
-         "image": "https://github.com/wals09/msx/blob/main/lampset/red.png?raw=true",
+         "image": "https://github.com/andycar/msx/blob/main/lampset/red.png?raw=true",
          "action": "link: https://lampa.stream",
          "properties": {
             "trigger:back": "player:stop",
@@ -116,7 +116,7 @@
             }
          },
          "playerLabel": "bwa-cloud",
-         "image": "https://github.com/wals09/msx/blob/main/lampset/green.png?raw=true",
+         "image": "https://github.com/andycar/msx/blob/main/lampset/green.png?raw=true",
          "action": "link: https://bwa-cloud.apn.monster",
          "properties": {
             "trigger:back": "player:stop",
@@ -135,7 +135,7 @@
             }
          },
          "playerLabel": "bwa-cloud top",
-         "image": "https://github.com/wals09/msx/blob/main/lampset/purple.png?raw=true",
+         "image": "https://github.com/andycar/msx/blob/main/lampset/purple.png?raw=true",
          "action": "link: http://bwa-cloud.cfhttp.top",
          "properties": {
             "trigger:back": "player:stop",
@@ -153,7 +153,7 @@
                "text": "{br}Приложение \"LAMPA\" с альтернативным адресом на случай \"падения\" оригинальной или для постоянного использования. {br}Установлены парсер и плагины "
             }
          },
-         "image": "https://github.com/wals09/msx/blob/main/lampset/lite_blue.png?raw=true",
+         "image": "https://github.com/andycar/msx/blob/main/lampset/lite_blue.png?raw=true",
          "action": "link: http://lampa.skaz.tv",
          "properties": {
             "trigger:back": "player:stop",

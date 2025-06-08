@@ -1,9 +1,9 @@
 {
    "name": "Детское ТВ",
    "version": "1.0.0",
-   "background": "https://wals09.github.io/msx/img/bg.jpg",
+   "background": "https://andycar.github.io/msx/img/bg.jpg",
    "headline": "Детское ТВ",
-   "dictionary": "https://wals09.github.io/msx/dictionary.json",
+   "dictionary": "https://andycar.github.io/msx/dictionary.json",
    "menu": [
       {
          "type": "separator"
@@ -12,7 +12,7 @@
          "image": "https://mults.info/img/collection.png",
          "label": "Каналы",
          "extensionLabel": "",
-         "data": "user:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/multiki/pl/kids.m3u"
+         "data": "user:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://andycar.github.io/msx/multiki/pl/kids.m3u"
       },
       {
          "type": "separator"

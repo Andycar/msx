@@ -1,6 +1,6 @@
 {
    "type": "list",
-   "dictionary": "https://wals09.github.io/msx/dictionary.json",
+   "dictionary": "https://andycar.github.io/msx/dictionary.json",
    "headline": "МУЛЬТИКИ",
    "transparent": 2,
    "preload": "next",
@@ -67,17 +67,17 @@
          "titleHeader": "{col:msx-white}МУЛЬТИКИ",
          "titleFooter": "Приложение не содержит медиа-контента, а предоставляет ссылку на первоисточник",
          "description": "Здесь собрали для вас коллекцию мультфильмов советских времен и не только. Самые лучшие мультики из вашего детства!  Бесплатно посмотреть мультфильмы онлайн, а также скачать мультики для просмотра на компьютере или телевизоре: https://mults.info/ ",
-         "backdrop": "https://wals09.github.io/msx/img/bg_logo.png",
-         "image": "https://wals09.github.io/msx/img/bg_logo.png",
-         "action": "content: https://wals09.github.io/msx/multiki/multfilmy.json"
+         "backdrop": "https://andycar.github.io/msx/img/bg_logo.png",
+         "image": "https://andycar.github.io/msx/img/bg_logo.png",
+         "action": "content: https://andycar.github.io/msx/multiki/multfilmy.json"
       },
       {
          "titleHeader": "{col:msx-white}ТОМ и ДЖЕРРИ",
          "titleFooter": "Приложение не содержит медиа-контента, а предоставляет ссылку на первоисточник",
          "description": "Том и Джерри онлайн бесплатно: https://tom-dzherri.net. Ввсе серии замечательного и всеми любимого мультфильма Том и Джерри. Просмотр доступен всем без исключения и абсолютно бесплатно. На сайте собраны практически все серии мультика с русским переводом. ",
-         "backdrop": "https://wals09.github.io/msx/img/splash.png",
-         "image": "https://wals09.github.io/msx/img/splash.png",
-         "action": "content: https://wals09.github.io/msx/tom_jerry/tom_jerry.json"
+         "backdrop": "https://andycar.github.io/msx/img/splash.png",
+         "image": "https://andycar.github.io/msx/img/splash.png",
+         "action": "content: https://andycar.github.io/msx/tom_jerry/tom_jerry.json"
       }
    ]
 }

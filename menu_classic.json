@@ -1,7 +1,7 @@
 {
    "type": "list",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
-   "dictionary": "https://wals09.github.io/msx/dictionary.json",
+   "dictionary": "https://andycar.github.io/msx/dictionary.json",
    "preload": "next",
    "captionUnderlay": 1,
    "underlay": {
@@ -34,15 +34,15 @@
       {
          "title": "Тема оформления",
          "color": "transparent",
-         "image": "https://wals09.github.io/msx/logon/tema.png",
+         "image": "https://andycar.github.io/msx/logon/tema.png",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-white}Выбор темы оформления WALS_MSX"
+               "headline": "{col:msx-white}Выбор темы оформления Andycar_MSX"
             }
          },
-         "action": "panel:https://wals09.github.io/msx/tema/panel_tems.json",
+         "action": "panel:https://andycar.github.io/msx/tema/panel_tems.json",
          "properties": {
             "trigger:back": "player:stop"
          }
@@ -57,7 +57,7 @@
                "headline": "IPTV плеер"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/drm.png",
+         "image": "https://andycar.github.io/msx/logon/drm.png",
          "action": "link:http://ott.drm-play.com",
          "properties": {
             "image:extension": "| {col:msx-white}First Item"
@@ -72,7 +72,7 @@
                "headline": "IPTV плеер "
             }
          },
-         "image": "https://wals09.github.io/msx/logon/foss.png",
+         "image": "https://andycar.github.io/msx/logon/foss.png",
          "action": "link:http://ott.prog4food.eu.org/f/",
          "properties": {
             "image:extension": "| {col:msx-white}Second Item"
@@ -87,7 +87,7 @@
                "headline": "IPTV плеер "
             }
          },
-         "image": "https://wals09.github.io/msx/logon/ott-play.png",
+         "image": "https://andycar.github.io/msx/logon/ott-play.png",
          "action": "link:http://ott-play.com/f/",
          "properties": {
             "image:extension": "| {col:msx-white}Third Item"
@@ -102,7 +102,7 @@
                "headline": "IPTV player от разработчиков LAMPA"
             }
          },
-         "image": "https://wals09.github.io/msx/logon//icva.png",
+         "image": "https://andycar.github.io/msx/logon//icva.png",
          "action": "link:http://icva.mx/",
          "properties": {
             "image:extension": "| {col:msx-white}Fourth Item"
@@ -117,7 +117,7 @@
                "headline": "IPTV плеер "
             }
          },
-         "image": "https://wals09.github.io/msx/logon/ottplayer.png",
+         "image": "https://andycar.github.io/msx/logon/ottplayer.png",
          "action": "link:http://widget.ottplayer.tv",
          "properties": {
             "image:extension": "| {col:msx-white}27th Item"
@@ -132,7 +132,7 @@
                "headline": "IPTV плеер "
             }
          },
-         "image": "https://wals09.github.io/msx/logon/one_player.png",
+         "image": "https://andycar.github.io/msx/logon/one_player.png",
          "action": "link:http://webos.oneplayer.me",
          "properties": {
             "image:extension": "| {col:msx-white}27th Item"
@@ -147,7 +147,7 @@
                "headline": "Приложение-каталог. Oнлайн, торрент, iptv"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/lampa.png",
+         "image": "https://andycar.github.io/msx/logon/lampa.png",
          "action": "link:http://lampa.mx",
          "properties": {
             "image:extension": "| {col:msx-white}Fifth Item"
@@ -162,7 +162,7 @@
                "headline": "Мод программы Лампа. Oнлайн, торрент, iptv"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/akter_black.png",
+         "image": "https://andycar.github.io/msx/logon/akter_black.png",
          "action": "link:http://abvidaa.ru/",
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
@@ -177,8 +177,8 @@
                "headline": "Мод программы Лампа. Oнлайн, торрент, iptv"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/prisma.png",
-         "action": "panel: https://wals09.github.io/msx/prisma/template.json",
+         "image": "https://andycar.github.io/msx/logon/prisma.png",
+         "action": "panel: https://andycar.github.io/msx/prisma/template.json",
          "properties": {
             "image:extension": "| {col:msx-white}27th Item"
          }
@@ -192,7 +192,7 @@
                "headline": "Oнлайн, торрент, iptv"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/bylampa.png",
+         "image": "https://andycar.github.io/msx/logon/bylampa.png",
          "action": "link:http://bylampa.online",
          "properties": {
             "image:extension": "| {col:msx-white}27th Item"
@@ -207,8 +207,8 @@
                "headline": "Приложения \"LAMPA\" с альтернативными адресами"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/lampset.png",
-         "action": "panel: https://wals09.github.io/msx/lampset/template.json",
+         "image": "https://andycar.github.io/msx/logon/lampset.png",
+         "action": "panel: https://andycar.github.io/msx/lampset/template.json",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -223,7 +223,7 @@
                "headline": "Мод программы Lampa"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/uspeh2.png",
+         "image": "https://andycar.github.io/msx/logon/uspeh2.png",
          "action": "link:http://uspeh.sbs",
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
@@ -239,7 +239,7 @@
                "headline": "Lampa NoName"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/lampaNN.png",
+         "image": "https://andycar.github.io/msx/logon/lampaNN.png",
          "action": "link: http://lampa.nnmtv.pw/"
       },
 
@@ -254,7 +254,7 @@
                "headline": "Lampa lite {col:yellow}|{col} NoName"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/lampa_lite.png",
+         "image": "https://andycar.github.io/msx/logon/lampa_lite.png",
          "action": "link:http://lite.nnmtv.pw/"
       },
       {
@@ -266,7 +266,7 @@
                "headline": "Фильмы, сериалы, аниме, просмотр торрентов"
             }
          },
-         "image": "https://github.com/wals09/msx/blob/main/logo/vokino.png?raw=true",
+         "image": "https://github.com/andycar/msx/blob/main/logo/vokino.png?raw=true",
          "action": "link: http://web.vokino.tv/",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -281,7 +281,7 @@
                "headline": "Фильмы, сериалы, аниме, просмотр торрентов"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/atodo.png",
+         "image": "https://andycar.github.io/msx/logon/atodo.png",
          "action": "menu:request:interaction:menu@http://atodo.fun/fun.html",
          "properties": {
             "image:extension": "| {col:msx-white}Seventh Item"
@@ -296,7 +296,7 @@
                "headline": "Web версия приложения ATODO"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/atodo.png",
+         "image": "https://andycar.github.io/msx/logon/atodo.png",
          "action": "link:http://msx.atodo.fun/",
          "properties": {
             "image:extension": "| {col:msx-white}Eighth Item"
@@ -311,7 +311,7 @@
                "headline": "Фильмы, сериалы, аниме, торренты, IPTV"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/moovies.png",
+         "image": "https://andycar.github.io/msx/logon/moovies.png",
          "action": "menu:request:interaction:init@http://moovies.uz/index.html",
          "properties": {
             "image:extension": "| {col:msx-white}Ninth Item"
@@ -326,7 +326,7 @@
                "headline": "Платный онлайн кинотеатр.(⚠️ТЕСТ⚠️)"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/tvoe.png",
+         "image": "https://andycar.github.io/msx/logon/tvoe.png",
          "action": "link:https://tv-old.tvoe.live",
          "properties": {
             "image:extension": "| {col:msx-white}17th Item"
@@ -341,7 +341,7 @@
                "headline": "MOVIELAB на базе Media Station X. Online"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/movielab.png",
+         "image": "https://andycar.github.io/msx/logon/movielab.png",
          "action": "menu:https://movielab.fun/msx/menu.json",
          "properties": {
             "image:extension": "| {col:msx-white}Tenth Item"
@@ -356,7 +356,7 @@
                "headline": "Bеб-браузер, адаптированный для просмотра медиа"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/fork_com.png",
+         "image": "https://andycar.github.io/msx/logon/fork_com.png",
          "action": "link:http://browser.appfxml.com/",
          "properties": {
             "image:extension": "| {col:msx-white}Eleventh Item"
@@ -371,7 +371,7 @@
                "headline": "Онлайн кинотеатр по подписке"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/filmix.png",
+         "image": "https://andycar.github.io/msx/logon/filmix.png",
          "action": "link:http://filmix.tv/",
          "properties": {
             "image:extension": "| {col:msx-white}Eleventh Item"
@@ -386,7 +386,7 @@
                "headline": "Oнлайн-кинотеатр по подписке Яндекс Плюс"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/kinopoisk.png",
+         "image": "https://andycar.github.io/msx/logon/kinopoisk.png",
          "action": "link:https://smarttv-app.ott.yandex.ru/",
          "properties": {
             "image:extension": "| {col:msx-white}Twelfth Item"
@@ -401,7 +401,7 @@
                "headline": "Oнлайн-кинотеатр по подписке"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/deeplex.png",
+         "image": "https://andycar.github.io/msx/logon/deeplex.png",
          "action": "link:http://smart.deeplex.cc/",
          "properties": {
             "image:extension": "| {col:msx-white}20th Item"
@@ -416,7 +416,7 @@
                "headline": "Oнлайн-кинотеатр по подписке"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/kinopub.png",
+         "image": "https://andycar.github.io/msx/logon/kinopub.png",
          "action": "link:http://kpms.cc/bootstrap.html",
          "properties": {
             "image:extension": "| {col:msx-white}21st Item"
@@ -431,7 +431,7 @@
                "headline": "Oнлайн-кинотеатр по подписке"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/kinopub_green.png",
+         "image": "https://andycar.github.io/msx/logon/kinopub_green.png",
          "action": "link:https://cdnservices.link",
          "properties": {
             "image:extension": "| {col:msx-white}21st Item"
@@ -446,7 +446,7 @@
                "headline": "Oнлайн-кинотеатр, нужна регистрация"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/xsmart.png",
+         "image": "https://andycar.github.io/msx/logon/xsmart.png",
          "action": "link:http://app.xsmart.tv",
          "properties": {
             "image:extension": "| {col:msx-white}22nd Item"
@@ -461,7 +461,7 @@
                "headline": "Oнлайн-кинотеатр по подписке"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/impire_boom.png",
+         "image": "https://andycar.github.io/msx/logon/impire_boom.png",
          "action": "link:http://web.imboom.ru/",
          "properties": {
             "image:extension": "| {col:msx-white}23rd Item"
@@ -476,7 +476,7 @@
                "headline": "Oнлайн-кинотеатр по подписке"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/kinoboom.png",
+         "image": "https://andycar.github.io/msx/logon/kinoboom.png",
          "action": "execute:info:extended:http://kb-team.club/msx/enter.php",
          "properties": {
             "image:extension": "| {col:msx-white}24th Item"
@@ -491,7 +491,7 @@
                "headline": "Oнлайн-кинотеатр за донат. (vPlay мод)"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/tutkino.jpg",
+         "image": "https://andycar.github.io/msx/logon/tutkino.jpg",
          "action": "link:http://web.tutkino.fun/",
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
@@ -506,7 +506,7 @@
                "headline": "Oнлайн-кинотеатр за донат. (Lampa_lite мод)"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/tutkinolite.jpg",
+         "image": "https://andycar.github.io/msx/logon/tutkinolite.jpg",
          "action": "link:http://lite.tutkino.fun/",
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
@@ -521,7 +521,7 @@
                "headline": "Oнлайн-кинотеатр, нужна регистрация"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/getstv.png",
+         "image": "https://andycar.github.io/msx/logon/getstv.png",
          "action": "panel:http://lg.getstv.ru/msx/msx.json",
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
@@ -536,7 +536,7 @@
                "headline": "Oнлайн-кинотеатр по подписке"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/kion.png",
+         "image": "https://andycar.github.io/msx/logon/kion.png",
          "action": "link:https://kion.ru/EPG/smarttvlg/index.html",
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
@@ -551,7 +551,7 @@
                "headline": "Oнлайн-кинотеатр по подписке"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/okko.png",
+         "image": "https://andycar.github.io/msx/logon/okko.png",
          "action": "link:http://lge.okko.tv",
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
@@ -566,7 +566,7 @@
                "headline": "Онлайн-сервис для хостинга и просмотра видео"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/rutube.png",
+         "image": "https://andycar.github.io/msx/logon/rutube.png",
          "action": "link:https://rutube.ru/tv-release/rutube.server-22.0.0/webos/",
          "properties": {
             "image:extension": "| {col:msx-white}13th Item"
@@ -581,7 +581,7 @@
                "headline": "Поиск по видеороликам от Яндекса"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/yandex.png",
+         "image": "https://andycar.github.io/msx/logon/yandex.png",
          "action": "link:https://yandex.ru/video/tvapp/?ui=tvapp",
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
@@ -596,7 +596,7 @@
                "headline": "Hеофициальное приложение для webOS"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/tiktok.png",
+         "image": "https://andycar.github.io/msx/logon/tiktok.png",
          "action": "link:https://tv.tiktok.com/webos",
          "properties": {
             "image:extension": "| {col:msx-white}14th Item"
@@ -611,8 +611,8 @@
                "headline": "Блогеры, фильмы, сериалы, телеканалы, мультфильмы и т.п"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/vk.png",
-         "action": "panel:https://wals09.github.io/msx/vkvideo/vk_template.json",
+         "image": "https://andycar.github.io/msx/logon/vk.png",
+         "action": "panel:https://andycar.github.io/msx/vkvideo/vk_template.json",
          "properties": {
             "image:extension": "| {col:msx-white}15th Item"
          }
@@ -626,7 +626,7 @@
                "headline": "Российская мультимедийная онлайн-платформа «ВГТРК»"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/smotrim.png",
+         "image": "https://andycar.github.io/msx/logon/smotrim.png",
          "action": "link:https://tv.smotrim.ru",
          "properties": {
             "image:extension": "| {col:msx-white}16th Item"
@@ -641,7 +641,7 @@
                "headline": "Сервис для хостинга и просмотра видео"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/youtube.png",
+         "image": "https://andycar.github.io/msx/logon/youtube.png",
          "action": "link:https://www.youtube.com/tv#/",
          "properties": {
             "image:extension": "| {col:msx-white}17th Item"
@@ -656,7 +656,7 @@
                "headline": "Версия видеохостинга Youtube для детей"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/ytkids.png",
+         "image": "https://andycar.github.io/msx/logon/ytkids.png",
          "action": "link:https://www.youtube.com/tv/kids",
          "properties": {
             "image:extension": "| {col:msx-white}18th Item"
@@ -671,8 +671,8 @@
                "headline": "Смотрим мультфильмы онлайн"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/multiki.png",
-         "action": "content:https://wals09.github.io/msx/welcome.json",
+         "image": "https://andycar.github.io/msx/logon/multiki.png",
+         "action": "content:https://andycar.github.io/msx/welcome.json",
          "properties": {
             "image:extension": "| {col:msx-white}19th Item"
          }
@@ -686,8 +686,8 @@
                "headline": "IPTV каналы из интернета"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/relax.png",
-         "action": "content: https://wals09.github.io/msx/bonus/relax.json",
+         "image": "https://andycar.github.io/msx/logon/relax.png",
+         "action": "content: https://andycar.github.io/msx/bonus/relax.json",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -702,8 +702,8 @@
                "headline": "IPTV каналы из интернета"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/sport.png",
-         "action": "content: https://wals09.github.io/msx/bonus/sport.json",
+         "image": "https://andycar.github.io/msx/logon/sport.png",
+         "action": "content: https://andycar.github.io/msx/bonus/sport.json",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -720,7 +720,7 @@
          }
          },
          "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
-         "action": "panel:https://wals09.github.io/msx/pesni_nashego_leta/pesni_nashego_leta.json",
+         "action": "panel:https://andycar.github.io/msx/pesni_nashego_leta/pesni_nashego_leta.json",
          "properties": {
             "image:extension": "| {col:msx-white}17th Item"
          }
@@ -736,7 +736,7 @@
             }
          },
          "image": "https://yt3.googleusercontent.com/ytc/AIdro_kUkL-a59qSwEq6Dc-Il979Khwahh1_URZsficN8tYV=s160-c-k-c0x00ffffff-no-rj",
-         "action": "content:https://raw.githubusercontent.com/wals09/prog/main/avtoradio/translation.json",
+         "action": "content:https://raw.githubusercontent.com/Andycar09/prog/main/avtoradio/translation.json",
          "properties": {
             "image:extension": "| {col:msx-white}17th Item"
          }
@@ -752,7 +752,7 @@
             }
          },
          "image": "https://rileyjames.co.uk/wp-content/uploads/2019/07/Online-Store-Logo.jpg",
-         "action": "panel:https://wals09.github.io/msx/alterstore/template.json",
+         "action": "panel:https://andycar.github.io/msx/alterstore/template.json",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}26th Item"

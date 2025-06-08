@@ -1,6 +1,6 @@
 {
    "type": "list",
-   "dictionary": "https://wals09.github.io/msx/dictionary.json",
+   "dictionary": "https://andycar.github.io/msx/dictionary.json",
    "preload": "next",
    "pages": [
       {
