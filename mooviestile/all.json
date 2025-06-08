@@ -30,6 +30,18 @@
    },
    "items": [
       {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "LAMPA land Andycar",
+               "text": "Мод программы Лампа{br}Программа уже настроенная для он-лайн просмотра и просмотра iptv"
+            }
+         },
+         "image": "https://wals09.github.io/msx/lampa_land/icon.png",
+         "action": "link:http://andycar.online:9713"
+      },
+	  {
          "focus": true,
          "selection": {
             "important": true,
