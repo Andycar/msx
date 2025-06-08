@@ -399,7 +399,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}МУЛЬТИКИ{col}{br}{col:black}Смотрим мультфильмы онлайн. Коллекция мультфильмов советских времен и не только. Самые лучшие мультики из вашего детства!",
-               "image": "https://github.com/Andycar09/repo/blob/main/multiki/multiki.gif?raw=true"
+               "image": "https://github.com/Andycar/repo/blob/main/multiki/multiki.gif?raw=true"
             }
          },
          "image": "https://andycar.github.io/msx/multiki/logo.png",

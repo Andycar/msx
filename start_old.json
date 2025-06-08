@@ -5,11 +5,11 @@
    "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
    "headline": "Andycar_MSX v2.1",
    "version": "2.1.0",
-   "parameter": "content:https://raw.githubusercontent.com/Andycar09/msx/main/start.json",
+   "parameter": "content:https://raw.githubusercontent.com/Andycar/msx/main/start.json",
    "action": "[settings:validate_links:0|home]",
    "dictionary": "https://andycar.github.io/msx/dictionary.json",
    "launcher": {
-      "image": "https://raw.githubusercontent.com/Andycar09/msx/main/img/Andycar.png"
+      "image": "https://raw.githubusercontent.com/Andycar/msx/main/img/Andycar.png"
    },
    "preload": "next",
    "overlay": {
@@ -327,7 +327,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}МУЛЬТИКИ{col}{br}{col:black}Смотрим мультфильмы онлайн. Коллекция мультфильмов советских времен и не только. Самые лучшие мультики из вашего детства!",
-               "image": "https://github.com/Andycar09/repo/blob/main/multiki/multiki.gif?raw=true"
+               "image": "https://github.com/Andycar/repo/blob/main/multiki/multiki.gif?raw=true"
             }
          },
          "image": "https://andycar.github.io/msx/multiki/logo.png",

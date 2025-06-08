@@ -651,7 +651,7 @@
             }
          },
          "image": "https://yt3.googleusercontent.com/ytc/AIdro_kUkL-a59qSwEq6Dc-Il979Khwahh1_URZsficN8tYV=s160-c-k-c0x00ffffff-no-rj",
-         "action": "content:https://raw.githubusercontent.com/Andycar09/prog/main/avtoradio/translation.json"
+         "action": "content:https://raw.githubusercontent.com/Andycar/prog/main/avtoradio/translation.json"
       },
       {
          "color": "transparent",
@@ -663,8 +663,8 @@
                "text": "YouTUBE radio"
             }
          },
-         "image": "https://raw.githubusercontent.com/Andycar09/prog/main/best_of_mix/bm.jpg",
-         "action": "content:https://raw.githubusercontent.com/Andycar09/prog/main/best_of_mix/best_mix.json",
+         "image": "https://raw.githubusercontent.com/Andycar/prog/main/best_of_mix/bm.jpg",
+         "action": "content:https://raw.githubusercontent.com/Andycar/prog/main/best_of_mix/best_mix.json",
          "properties": {
             "trigger:back": "player:stop"
          }

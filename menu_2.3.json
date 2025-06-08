@@ -221,7 +221,7 @@
             }
          },
          "image": "https://github.com/andycar/msx/blob/main/lampset/lampset.png?raw=true",
-         "action": "content: https://raw.githubusercontent.com/Andycar09/msx/main/lampset/lampset.json",
+         "action": "content: https://raw.githubusercontent.com/Andycar/msx/main/lampset/lampset.json",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"

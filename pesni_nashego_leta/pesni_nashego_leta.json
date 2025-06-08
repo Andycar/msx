@@ -29,7 +29,7 @@
          "titleHeader": "Хиты лета 2024! LIVE из студии Авторадио",
          "image": "https://yt3.googleusercontent.com/sYv-HusjbUWz4p7hP-k7jQGWRD9QJTmsWDNOwQgfFWQpv0ihi8yPmkNR59MF6vZTfnzuuSc_8A=s160-c-k-c0x00ffffff-no-rj",
          "playerLabel": "Хиты лета 2024!",
-      "action": "content:https://raw.githubusercontent.com/Andycar09/prog/main/avtoradio/avtoradio.json",
+      "action": "content:https://raw.githubusercontent.com/Andycar/prog/main/avtoradio/avtoradio.json",
          "properties": {
             "trigger:back": "player:stop"
          }
