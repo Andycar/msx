@@ -50,7 +50,7 @@
             }
          },
          "image": "https://andycar.github.io/msx/logo/noname.jpg",
-         "action": "link:https://andycar.online:3780/msx/start.json"
+         "action": "link:https://andycar.online:3780/msx"
       },
 	  {
          "focus": true,
