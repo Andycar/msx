@@ -35,11 +35,22 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "LAMPA land Andycar",
-               "text": "Мод программы Лампа{br}Программа уже настроенная для он-лайн просмотра и просмотра iptv"
+               "text": "Мод программы Лампа{br}Программа уже настроенная для онлайн просмотра и просмотра iptv"
             }
          },
          "image": "https://andycar.github.io/msx/lampa_land/icon.png",
          "action": "link:http://andycar.online:9713"
+      },      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "TorrServ Andycar",
+               "text": "TorrServ MSX plugin (test)"
+            }
+         },
+         "image": "https://andycar.github.io/msx/logo/noname.jpg",
+         "action": "link:https://andycar.online:3780/msx/start.json"
       },
 	  {
          "focus": true,
