@@ -39,7 +39,7 @@
             }
          },
          "image": "https://andycar.github.io/msx/lampa_land/icon.png",
-         "action": "link:http://amsterdam.andycar.online:9713"
+         "action": "link:https://bewvnbtu.deploy.cx"
       },      {
          "selection": {
             "important": true,
@@ -632,3 +632,4 @@
       }
    ]
 }
+
