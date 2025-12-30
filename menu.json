@@ -1,8 +1,6 @@
 {
    "type": "list",
-   "headline": " ",
-   "transparent": 3,
-   "background": "https://www.miigaik.ru/upload/medialibrary/b6a/b6a6acf55f689b92ed4c7027f8838101.jpg",
+   "headline": "WALS_MSX 2.5",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "dictionary": "https://andycar.github.io/msx/dictionary.json",
    "preload": "next",
@@ -12,25 +10,24 @@
          {
             "type": "space",
             "round": false,
-            "layout": "0,0,3,2",
-            "offset": "-0.2,-0.1,0.6,0.4",
-            "image": "https://andycar.github.io/msx/den_pobedy/Pobeda80.png",
-            "color": ""
+            "layout": "0,3,12,3",
+            "offset": "-1.25,-0.6,2,1.17",
+            "color": "msx-black-soft"
          },
          {
             "type": "space",
             "round": false,
-            "layout": "0,2,12,1",
-            "offset": "-0.6,0.1,1.2,-0.8",
+            "layout": "0,0,12,1",
+            "offset": "-1,0,2,-0.8",
             "color": "red"
          },
          {
             "id": "text",
             "type": "space",
-            "layout": "4,0,6,3",
-            "offset": "-0.5,0.5,1,0",
-            "text": "",
-            "headline": ""
+            "layout": "1,0,6,3",
+            "offset": "-1,0.5,1,0",
+            "headline": "",
+            "text": ""
          }
       ]
    },
@@ -226,11 +223,23 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
+               "headline": "Lampa by Skaz",
+               "text": "Ппрограмма Lampa с предустановленными плагинами для онлайн просмотра. Возможность добавления плагинов из магазина."
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/lampa.png",
+         "action": "link:http://lampa.byskaz.ru/"
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
                "headline": "Lampa{col:yellow}|{col} NoName",
                "text": "Настроенная для просмотра контента онлайн. Благодарим уважаемого Noname."
             }
          },
-         "image": "https://andycar.github.io/msx/logon/lampaNN.png",
+         "image": "https://wals09.github.io/msx/logon/lampaNN.png",
          "action": "link: http://lampa.nnmtv.pw/"
       },
       {
@@ -254,7 +263,7 @@
                "text": "Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов"
             }
          },
-         "image": "https://github.com/andycar/msx/blob/main/logo/vokino.png?raw=true",
+         "image": "https://github.com/wals09/msx/blob/main/logo/vokino.png?raw=true",
          "action": "link: http://web.vokino.tv/"
       },
       {
@@ -611,21 +620,27 @@
          "action": "content:https://raw.githubusercontent.com/Andycar/prog/main/avtoradio/translation.json"
       },
       {
-         "offset": "0,2.5,1,0",
+         "offset": "0,2.5,11,0",
          "color": "msx-black-soft",
-         "text": " Альтернативные магазины, лаунчеры",
+         "label": "{ico:msx-white:shop-2} Альтернативные магазины лаунчеры {ico:msx-white:shop-2}",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
                "headline": "AlterSTORE",
                "text": " Альтернативные MSX магазины / лаунчеры"
-            }
+            } 
          },
          "action": "panel:https://andycar.github.io/msx/alterstore/template.json",
          "properties": {
             "trigger:back": "player:stop"
-         }
+           }
       }
    ]
 }
+
+
+
+
+
+

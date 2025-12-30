@@ -42,7 +42,7 @@
       "imageFiller": "cover"
    },
    "items": [
-     {
+      {
          "color": "transparent",
          "image": "https://andycar.github.io/msx/logon/tema.png",
          "selection": {
@@ -207,7 +207,7 @@
          "image": "https://andycar.github.io/msx/logon/prisma.png",
          "action": "panel: https://andycar.github.io/msx/prisma/template.json"
       },
-     {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -224,12 +224,24 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
+               "headline": "Lampa by Skaz",
+               "text": "Ппрограмма Lampa с предустановленными плагинами для онлайн просмотра. Возможность добавления плагинов из магазина."
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/lampa.png",
+         "action": "link:http://lampa.byskaz.ru/"
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
                "headline": "Lampa NoName",
                "text": "Настроенная для просмотра контента онлайн программа Lampa. Благодарим уважаемого Noname"
             }
          },
          "image": "https://andycar.github.io/msx/logon/lampaNN.png",
-         "action": "link: http://lampa.nnmtv.pw/"
+         "action": "link: http://lam.nnmtv.pw/"
       },
       {
          "selection": {
@@ -248,11 +260,23 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
+               "headline": "NetFix",
+               "text": "NetFix - приложение (на базе программы Lampa) для просмотра фильмов и сериалов онлайн! Не требуется никаких настроек. Запустил и смотри. Просмотр торрентов не предусмотрен.{br}ВАЖНО: Нужна регистрация! Нужна оплаченная подписка! Есть тестовый период"
+            }
+         },
+         "image": "https://github.com/wals09/repo/blob/main/netfix/icon.png?raw=true",
+         "action": "link:http://netfix.cc"
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
                "headline": "VoKINO",
                "text": "Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов"
             }
          },
-         "image": "https://github.com/andycar/msx/blob/main/logo/vokino.png?raw=true",
+         "image": "https://github.com/wals09/msx/blob/main/logo/vokino.png?raw=true",
          "action": "link: http://web.vokino.tv/"
       },
       {
@@ -604,8 +628,8 @@
                "text": "Подборка спортивных каналов.{br}Взято из интернета в открытом доступе.{br} Работают так как есть. Работают пока работают."
             }
          },
-         "image": "https://andycar.github.io/msx/logon/sport.png",
-         "action": "content: https://andycar.github.io/msx/bonus/sport.json",
+         "image": "https://wals09.github.io/msx/logon/sport.png",
+         "action": "content: https://wals09.github.io/msx/bonus/sport.json",
          "properties": {
             "trigger:back": "player:stop"
          }
@@ -621,7 +645,7 @@
             }
          },
          "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
-         "action": "panel:https://andycar.github.io/msx/pesni_nashego_leta/pesni_nashego_leta.json"
+         "action": "panel:https://wals09.github.io/msx/pesni_nashego_leta/pesni_nashego_leta.json"
       },
       {
          "selection": {
@@ -636,7 +660,6 @@
          "image": "https://yt3.googleusercontent.com/ytc/AIdro_kUkL-a59qSwEq6Dc-Il979Khwahh1_URZsficN8tYV=s160-c-k-c0x00ffffff-no-rj",
          "action": "content:https://raw.githubusercontent.com/Andycar/prog/main/avtoradio/translation.json"
       },
-
       {
          "offset": "0,0,11,0",
          "color": "msx-black-soft",
@@ -656,3 +679,5 @@
       }
    ]
 }
+
+

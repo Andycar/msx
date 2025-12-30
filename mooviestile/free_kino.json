@@ -93,7 +93,14 @@
          "description": "{col:white}LAMPA NoName{col} {br} Настроенная для просмотра контента онлайн. Благодарим уважаемого Noname.",
          "backdrop": "https://cdn1.ozone.ru/s3/multimedia-r/6302926527.jpg",
          "image": "https://andycar.github.io/msx/logon/lampaNN.png",
-         "action": "link: http://lampa.nnmtv.pw/"
+         "action": "link: http://lam.nnmtv.pw/"
+      },
+      {
+         "titleHeader": "",
+         "description": "{col:white}LAMPA lite NoName{col} {br} Настроенная программа Lampa lite «готовая к употреблению». Благодарим уважаемого Noname",
+         "backdrop": "https://hostingkartinok.com/news/wp-content/uploads/2022/04/kinogo-onlajn-besplatnye-kinofilmy-i-video-v-horoshem-kachestve.png",
+         "image": "https://wals09.github.io/msx/logon/lampa_lite.png",
+         "action": "link:http://lite.nnmtv.pw/"
       },
       {
          "titleHeader": "",
@@ -108,7 +115,6 @@
          "image": "https://andycar.github.io/msx/lampa_land/icon.png",
          "action": "link:http://lampa.land"
       },
-
       {
          "titleHeader": "",
          "description": "{col:white}MOOVIES{col}{br}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов, iptv, прослушивание радиостанций",
@@ -148,3 +154,4 @@
       }
    ]
 }
+

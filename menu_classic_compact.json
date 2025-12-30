@@ -230,8 +230,8 @@
             "image:extension": "| {col:msx-white}26th Item"
          }
       },
-        {
-          "title": "Lampa NoName",
+      {
+         "title": "Lampa NoName",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -239,11 +239,11 @@
                "headline": "Lampa NoName"
             }
          },
-        "image": "https://andycar.github.io/msx/logon/lampaNN.png",
-         "action": "link: http://lampa.nnmtv.pw/"
+         "image": "https://andycar.github.io/msx/logon/lampaNN.png",
+         "action": "link: http://lam.nnmtv.pw/"
       },
-       {
-          "title": "Lampa lite NoName",
+      {
+         "title": "Lampa lite NoName",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -255,6 +255,18 @@
          "action": "link:http://lite.nnmtv.pw/"
       },
       {
+         "title": "NetFix",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Фильмы, сериалы, аниме"
+            }
+         },
+         "image": "https://github.com/wals09/repo/blob/main/netfix/icon.png?raw=tru",
+         "action": "link:http://netfix.cc"
+      },
+      {
          "title": "VoKINO",
          "selection": {
             "important": true,
@@ -263,7 +275,7 @@
                "headline": "Фильмы, сериалы, аниме, просмотр торрентов"
             }
          },
-         "image": "https://github.com/andycar/msx/blob/main/logo/vokino.png?raw=true",
+         "image": "https://github.com/wals09/msx/blob/main/logo/vokino.png?raw=true",
          "action": "link: http://web.vokino.tv/",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -314,7 +326,7 @@
             "image:extension": "| {col:msx-white}Ninth Item"
          }
       },
-            {
+      {
          "title": "TVOЁ",
          "selection": {
             "important": true,
@@ -699,8 +711,8 @@
                "headline": "IPTV каналы из интернета"
             }
          },
-         "image": "https://andycar.github.io/msx/logon/sport.png",
-         "action": "content: https://andycar.github.io/msx/bonus/sport.json",
+         "image": "https://wals09.github.io/msx/logon/sport.png",
+         "action": "content: https://wals09.github.io/msx/bonus/sport.json",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -716,7 +728,7 @@
             }
          },
          "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
-         "action": "panel:https://andycar.github.io/msx/pesni_nashego_leta/pesni_nashego_leta.json",
+         "action": "panel:https://wals09.github.io/msx/pesni_nashego_leta/pesni_nashego_leta.json",
          "properties": {
             "image:extension": "| {col:msx-white}17th Item"
          }
@@ -756,3 +768,5 @@
       }
    ]
 }
+
+
